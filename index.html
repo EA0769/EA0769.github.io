@@ -1,29 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
-    <title>Min portefølje</title>
+  <link rel="stylesheet" href="css/main.css">
+  <title>Min portefølje</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    /* Style the header */
+    .header {
+      background-color: #3f24d5;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Style the top navigation bar */
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    /* Style the topnav links */
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    /* Change color on hover */
+    .topnav a:hover {
+      background-color: #2035ae;
+      color: black;
+    }
+  </style>
+
+
+
+
 </head>
 
 <body>
-    <h1>Min portefølje</h1>
-    <div class="subjectContainer">
-        <div class="subjectBox">
-            <img src="images/is.png">
-            <h3>Teknologiforståing</h3>
-        </div>
-        <div class="subjectBox" id="middlebox">
-            <img src="images/is.png">
-            <h3>Konseptutvikling og programmering</h3>
-        </div>
-        <div class="subjectBox" >
-            <img src="images/is.png">
-            <h3>Produksjon og historieforteljing</h3>
-        </div>
+  <div class="header">
+    <h1>min portefølje</h1>
+  </div>
+
+  <div class="topnav">
+    <a href="fag.html">Fag</a>
+    <a href="fag.html">about me</a>
+    <a href="fag.html">idk</a>
+  </div>
+  <h1>Min portefølje</h1>
+  <div class="subjectContainer">
+    <div class="subjectBox">
+      <img src="images/is.png">
+      <h3>Teknologiforståing</h3>
     </div>
+    <div class="subjectBox" id="middlebox">
+      <img src="images/is.png">
+      <h3>Konseptutvikling og programmering</h3>
+    </div>
+    <div class="subjectBox">
+      <img src="images/is.png">
+      <h3>Produksjon og historieforteljing</h3>
+    </div>
+  </div>
 </body>
 
 </html>
